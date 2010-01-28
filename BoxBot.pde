@@ -28,7 +28,7 @@ void loop()
     }else{
       turnLeft();
     }
-    delay(1000);
+    delay(random(100,1000));
   }else{
     go(90);
   }
