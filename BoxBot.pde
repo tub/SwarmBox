@@ -28,10 +28,10 @@ void loop()
     }else{
       turnLeft();
     }
+    delay(1000);
   }else{
     go(90);
   }
-  delay(1000);
 }
 
 void bumpLeft(){  
